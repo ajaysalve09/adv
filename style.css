@@ -254,7 +254,7 @@ body {
 
 /* TAB CONTENT */
 .tab-content {
-  padding: 1em;
+  padding: 0.6em 0 0.6em 0;
 }
 
 .tab-panel {
