@@ -4,15 +4,20 @@
   <meta charset="UTF-8">
   <title>Advocate Profile</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Main CSS -->
   <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 
 <body>
 
 <div class="profile-container">
 
-  <!-- HEADER (UNCHANGED) -->
+  <!-- HEADER -->
   <header class="profile-header">
     <div class="avatar-wrapper">
       <div class="avatar">
@@ -24,18 +29,37 @@
 
     <div class="header-info">
       <h1>Adv. M. K. Tiwari</h1>
-      <p class="designation">Practicing Advocate</p>
-      <p class="courts">District and Session Court, Amravati</p>
+      <p class="designation">
+        <i class="fa-solid fa-user-tie"></i> Practicing Advocate
+      </p>
+      <p class="courts">
+        <i class="fa-solid fa-building-columns"></i>
+        District & Session Court, Amravati
+      </p>
     </div>
   </header>
 
-  <!-- CATEGORIES -->
+  <!-- TABS -->
   <nav class="profile-tabs">
-    <button class="tab active" data-tab="overview">Overview</button>
-    <button class="tab" data-tab="education">Education</button>
-    <button class="tab" data-tab="practice">Practice</button>
-    <button class="tab" data-tab="team">Address</button>
-    <button class="tab" data-tab="contact">Contact</button>
+    <button class="tab active" data-tab="overview">
+      <i class="fa-solid fa-user-tie"></i> Overview
+    </button>
+
+    <button class="tab" data-tab="education">
+      <i class="fa-solid fa-graduation-cap"></i> Education
+    </button>
+
+    <button class="tab" data-tab="practice">
+      <i class="fa-solid fa-scale-balanced"></i> Practice
+    </button>
+
+    <button class="tab" data-tab="address">
+      <i class="fa-solid fa-location-dot"></i> Address
+    </button>
+
+    <button class="tab" data-tab="contact">
+      <i class="fa-solid fa-phone-volume"></i> Contact
+    </button>
   </nav>
 
   <!-- CONTENT -->
@@ -44,15 +68,9 @@
     <!-- OVERVIEW -->
     <section class="tab-panel active reveal" id="overview">
       <div class="card">
-        <h3>Office Address</h3>
-        <p>
-          Chamber No. 12, Civil Court Complex<br>
-          New Delhi – 110001
-        </p>
-      </div>
-
-      <div class="card">
-        <h3>Professional Profile</h3>
+        <h3>
+          <i class="fa-solid fa-briefcase"></i> Professional Profile
+        </h3>
         <p>
           <strong>Experience:</strong> 10+ Years<br>
           <strong>Specialization:</strong> Criminal, Constitutional & Cyber Law<br>
@@ -64,7 +82,9 @@
     <!-- EDUCATION -->
     <section class="tab-panel reveal" id="education">
       <div class="card">
-        <h3>Academic Qualifications</h3>
+        <h3>
+          <i class="fa-solid fa-user-graduate"></i> Academic Qualifications
+        </h3>
         <ul>
           <li>B.A. LL.B – Delhi University</li>
           <li>LL.M (Constitutional Law)</li>
@@ -76,7 +96,9 @@
     <!-- PRACTICE -->
     <section class="tab-panel reveal" id="practice">
       <div class="card">
-        <h3>Area of Practice</h3>
+        <h3>
+          <i class="fa-solid fa-gavel"></i> Area of Practice
+        </h3>
         <ul>
           <li>Criminal Litigation</li>
           <li>Constitutional Matters</li>
@@ -87,112 +109,121 @@
       </div>
     </section>
 
-<!-- TEAM -->
+    <!-- ADDRESS -->
+    <section class="tab-panel reveal" id="address">
 
-<section class="tab-panel reveal" id="team">
+      <div class="card">
+        <h3>
+          <i class="fa-solid fa-building-columns"></i> Office Address
+        </h3>
+        <p>
+          Chamber No. 12, Civil Court Complex<br>
+          District & Session Court Campus<br>
+          Amravati, Maharashtra – 444601
+        </p>
 
-  <!-- OFFICE ADDRESS -->
-  <div class="card">
-    <h3><i class="fa-solid fa-building-columns"></i> Office Address</h3>
-    <p>
-      Chamber No. 12, Civil Court Complex<br>
-      District & Session Court Campus<br>
-      Amravati, Maharashtra – 444601
-    </p>
+        <a class="map-btn"
+           href="https://www.google.com/maps/dir/?api=1&destination=District+Court+Amravati"
+           target="_blank">
+          <i class="fa-solid fa-location-arrow"></i> Get Directions
+        </a>
+      </div>
 
-    <a
-      href="https://www.google.com/maps/dir/?api=1&destination=District+Court+Amravati"
-      target="_blank"
-      class="map-btn"
-    >
-      <i class="fa-solid fa-location-arrow"></i> Get Directions
-    </a>
-  </div>
+      <div class="card">
+        <h3>
+          <i class="fa-solid fa-house"></i> Residence Address
+        </h3>
+        <p>
+          Plot No. 45, Shastri Nagar<br>
+          Near Hanuman Mandir<br>
+          Amravati, Maharashtra – 444602
+        </p>
+      </div>
 
-  <!-- RESIDENCE ADDRESS -->
-  <div class="card">
-    <h3><i class="fa-solid fa-house"></i> Residence Address</h3>
-    <p>
-      Plot No. 45, Shastri Nagar<br>
-      Near Hanuman Mandir<br>
-      Amravati, Maharashtra – 444602
-    </p>
-  </div>
+      <div class="card">
+        <h3>
+          <i class="fa-solid fa-clock"></i> Office Timings
+        </h3>
+        <p>
+          Monday – Saturday<br>
+          <strong>10:30 AM – 6:30 PM</strong>
+        </p>
 
-  <!-- OFFICE TIMINGS -->
-  <div class="card">
-    <h3><i class="fa-solid fa-clock"></i> Office Timings</h3>
-    <p>
-      Monday – Saturday<br>
-      <strong>10:30 AM – 6:30 PM</strong>
-    </p>
+        <div class="notice">
+          <i class="fa-solid fa-circle-info"></i>
+          Office remains closed on Court holidays & vacations.
+        </div>
+      </div>
 
-    <div class="notice">
-      <i class="fa-solid fa-circle-info"></i>
-      Office remains closed on Court holidays & vacations.
-    </div>
-  </div>
+      <div class="card">
+        <h3>
+          <i class="fa-solid fa-map-location-dot"></i> Location Map
+        </h3>
 
-  <!-- GOOGLE MAP EMBED -->
-  <div class="card">
-    <h3><i class="fa-solid fa-map-location-dot"></i> Location Map</h3>
+        <div class="map-wrapper">
+          <iframe
+            src="https://www.google.com/maps?q=District%20Court%20Amravati&output=embed"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+      </div>
 
-    <div class="map-wrapper">
-      <iframe
-        src="https://www.google.com/maps?q=District%20Court%20Amravati&output=embed"
-        loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade">
-      </iframe>
-    </div>
-  </div>
+    </section>
 
-</section>
-
+    <!-- CONTACT -->
     <section class="tab-panel reveal" id="contact">
-  <div class="card contact-card">
-    <h3>Contact Details</h3>
+      <div class="card contact-card">
+        <h3>
+          <i class="fa-solid fa-address-book"></i> Contact Details
+        </h3>
 
-    <p class="contact-number">
-      <strong>Primary:</strong> +91 98765 43210
-    </p>
+        <p class="contact-number">
+          <strong>Primary:</strong> +91 98765 43210
+        </p>
 
-    <div class="contact-actions">
-      <a href="tel:+919876543210" class="contact-btn call">
-  <i class="fa-solid fa-phone"></i> Call
-</a>
+        <div class="contact-actions">
+          <a href="tel:+919876543210" class="contact-btn call">
+            <i class="fa-solid fa-phone"></i> Call
+          </a>
 
-      <a href="sms:+919876543210" class="contact-btn sms">
-  <i class="fa-solid fa-comment-dots"></i> SMS
-</a>
+          <a href="sms:+919876543210" class="contact-btn sms">
+            <i class="fa-solid fa-comment-dots"></i> SMS
+          </a>
 
-      <a href="https://wa.me/919876543210" target="_blank" class="contact-btn whatsapp">
-  <i class="fa-brands fa-whatsapp"></i> WhatsApp
-</a>
-    </div>
-<br>
-    <p class="contact-number">
-      <strong>Alternate:</strong> +91 84119 07193
-    </p>
+          <a href="https://wa.me/919876543210" target="_blank"
+             class="contact-btn whatsapp">
+            <i class="fa-brands fa-whatsapp"></i> WhatsApp
+          </a>
+        </div>
 
-    <div class="contact-actions">
-      <a href="tel:+9184119 07193" class="contact-btn call">
-  <i class="fa-solid fa-phone"></i> Call
-</a>
+        <br>
 
-      <a href="sms:+9184119 07193" class="contact-btn sms">
-  <i class="fa-solid fa-comment-dots"></i> SMS
-</a>
+        <p class="contact-number">
+          <strong>Alternate:</strong> +91 84119 07193
+        </p>
 
-      <a href="https://wa.me/9184119 07193" target="_blank" class="contact-btn whatsapp">
-  <i class="fa-brands fa-whatsapp"></i> WhatsApp
-</a>
-    </div>
+        <div class="contact-actions">
+          <a href="tel:+918411907193" class="contact-btn call">
+            <i class="fa-solid fa-phone"></i> Call
+          </a>
 
-  </div>
-</section>
+          <a href="sms:+918411907193" class="contact-btn sms">
+            <i class="fa-solid fa-comment-dots"></i> SMS
+          </a>
+
+          <a href="https://wa.me/918411907193" target="_blank"
+             class="contact-btn whatsapp">
+            <i class="fa-brands fa-whatsapp"></i> WhatsApp
+          </a>
+        </div>
+
+      </div>
+    </section>
 
   </main>
 
+  <!-- FOOTER -->
   <footer class="profile-footer">
     © 2025 M.K. Tiwari Official
   </footer>
