@@ -93,7 +93,6 @@ body {
 
 .card {
   background: var(--card-bg);
-  border-radius: 12px;
   padding: 24px;
   box-shadow: 0 8px 20px rgba(0,0,0,0.06);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -254,7 +253,7 @@ body {
 
 /* TAB CONTENT */
 .tab-content {
-  padding: 0.6em 0 0.6em 0;
+  padding: 0.6em 0;
 }
 
 .tab-panel {
@@ -265,7 +264,7 @@ body {
 .tab-panel.active {
   display: flex;
   flex-direction: column;
-  gap: 24px;
+  gap: 0.8em;
 }
 
 #team.tab-panel.active {
