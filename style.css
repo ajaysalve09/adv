@@ -282,3 +282,55 @@ body {
     transform: translateY(0);
   }
 }
+
+/* CONTACT ACTIONS */
+.contact-card {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.contact-number {
+  font-size: 15px;
+  color: var(--text-muted);
+}
+
+.contact-actions {
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+
+.contact-btn {
+  text-decoration: none;
+  padding: 10px 16px;
+  border-radius: 30px;
+  font-size: 14px;
+  font-weight: 500;
+  transition: all 0.25s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+/* BUTTON COLORS */
+.contact-btn.call {
+  background: #e8f0fe;
+  color: var(--blue);
+}
+
+.contact-btn.sms {
+  background: #fff4e5;
+  color: #b45309;
+}
+
+.contact-btn.whatsapp {
+  background: #e6f7ee;
+  color: #0f9d58;
+}
+
+/* HOVER EFFECT */
+.contact-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.08);
+}
