@@ -297,7 +297,7 @@ body {
 
 .contact-actions {
   display: flex;
-  gap: 14px;
+  gap: 8px;
   flex-wrap: wrap;
 }
 
