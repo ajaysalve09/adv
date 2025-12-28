@@ -27,7 +27,7 @@ body {
 
 /* HEADER */
 .profile-header {
-  padding: 40px;
+  padding: 1.5em;
   display: flex;
   gap: 30px;
   align-items: center;
@@ -202,7 +202,7 @@ body {
 .profile-tabs {
   display: flex;
   gap: 28px;
-  padding: 18px 40px;
+  padding: 18px;
   background: #fff;
   border-bottom: 1px solid #e5e7eb;
 
@@ -254,7 +254,7 @@ body {
 
 /* TAB CONTENT */
 .tab-content {
-  padding: 40px;
+  padding: 1em;
 }
 
 .tab-panel {
