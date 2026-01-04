@@ -36,7 +36,7 @@ body {
 }
 
 .avatar-wrapper {
-  padding: 4px;
+  padding: 2px;
   border-radius: 50%;
   background: linear-gradient(135deg, var(--orange), #ffd194);
 }
