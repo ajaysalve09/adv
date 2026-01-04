@@ -381,3 +381,39 @@ body {
   height: 260px;
   border: 0;
 }
+
+.header-contact {
+  display: flex;
+  gap: 12px;
+  margin-top: 10px;
+}
+
+.hc-btn {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  font-size: 16px;
+  color: #fff;
+  transition: all 0.3s ease;
+}
+
+.hc-btn.call {
+  background: #2563eb; /* Blue */
+}
+
+.hc-btn.sms {
+  background: #f97316; /* Orange */
+}
+
+.hc-btn.whatsapp {
+  background: #25d366;
+}
+
+.hc-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+}
