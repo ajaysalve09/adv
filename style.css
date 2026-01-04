@@ -80,7 +80,9 @@ body {
 
 .courts {
   font-size: 14px;
+  font-weight: bold;
   opacity: 0.85;
+  color: #fff;
 }
 
 /* CONTENT */
