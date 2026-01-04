@@ -27,7 +27,7 @@ body {
 
 /* HEADER */
 .profile-header {
-  padding: 1.5em;
+  padding: 1.2em;
   display: flex;
   gap: 30px;
   align-items: center;
@@ -94,14 +94,8 @@ body {
 .card {
   background: var(--card-bg);
   padding: 24px;
-  box-shadow: 0 8px 20px rgba(0,0,0,0.06);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   position: relative;
-}
-
-.card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 14px 28px rgba(0,0,0,0.08);
 }
 
 .card h3 {
@@ -253,7 +247,7 @@ body {
 
 /* TAB CONTENT */
 .tab-content {
-  padding: 0.6em 0;
+  /* padding: 0.6em 0; */
 }
 
 .tab-panel {
@@ -328,12 +322,6 @@ body {
   color: #0f9d58;
 }
 
-/* HOVER EFFECT */
-.contact-btn:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 8px 16px rgba(0,0,0,0.08);
-}
-
 /* MAP BUTTON */
 .map-btn {
   display: inline-flex;
@@ -347,11 +335,6 @@ body {
   text-decoration: none;
   font-size: 14px;
   transition: all 0.25s ease;
-}
-
-.map-btn:hover {
-  background: #08306b;
-  transform: translateY(-2px);
 }
 
 /* NOTICE BANNER */
@@ -383,7 +366,7 @@ body {
 }
 
 .header-contact {
-  display: flex;
+  display: -webkit-inline-box;
   gap: 12px;
   margin-top: 10px;
 }
@@ -411,9 +394,4 @@ body {
 
 .hc-btn.whatsapp {
   background: #25d366;
-}
-
-.hc-btn:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 6px 15px rgba(0,0,0,0.15);
 }
